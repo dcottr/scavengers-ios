@@ -19,7 +19,6 @@
     // Override point for customization after application launch.
     [FBLoginView class];
     
-    
     WelcomeViewController *welcomeController = [[WelcomeViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:welcomeController];
     self.window.rootViewController = navigationController;
